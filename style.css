@@ -1,0 +1,144 @@
+/*---------------------
+ start
+----------------------*/
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+    background-color: rgb(238, 240, 240);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    width: 1000px;
+    background-color: rgb(74, 208, 231);
+     margin: 0 auto;
+     padding: 20px;
+}
+
+.profile-image
+{
+width: 100px;
+height: 120;
+border: 3px solid white;
+border-radius: 50%;
+float: left;
+
+}
+.header-bio{
+  float: left;  
+  padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(190, 39, 127);
+}
+
+.header-contact
+{
+float: right;
+padding: 30px;
+}
+
+.header-contact a
+{
+text-decoration:none ;
+color:rgb(79, 11, 168)
+}
+
+.header-contact a:hover
+{
+text-decoration:underline;
+color:rgb(14, 12, 12);
+}
+
+.div-clear
+{
+    clear: both;
+}
+
+hr
+{
+border: solid black 3px;
+width:100% ;
+margin:2px auto;
+border-bottom: none;
+}
+
+/*---------------------
+personal section start
+----------------------*/
+
+.content
+{
+margin-bottom: 30px;
+}
+
+.left-div
+{
+width: 30%;
+float: left;
+}
+
+.right-div
+{
+width: 70%;
+float: left;
+}
+
+.common-hr
+{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/*---------------------
+education section start
+----------------------*/
+
+.education-temple-left
+{
+float: left;
+width: 45%;
+}
+
+
+.education-temple-right
+{
+    float: right;
+    width: 45%;
+}
+
+
+/*---------------------
+FOOTER start
+----------------------*/
+
+.bottom-container
+{
+    background-color: black;
+    text-align: center;
+    padding: 10 px;
+}
+
+.bottom-container  a
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-container  p
+{
+    color: white;
+    margin-top: 20px;
+}
+
+/*---------------------
+ start
+----------------------*/   
